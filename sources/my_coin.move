@@ -27,9 +27,9 @@ module my_coin::my_coin {
 
         let (treasury_cap, metadata) = coin::create_currency(
             otw, 9,
-            b"MC",
-            b"My Coin",
-            b"My First Ever Coin",
+            b"Barya",
+            b"My Barya",
+            b"My First Barya",
             option::some(url),
             ctx
         );
